@@ -46,12 +46,6 @@ const Homepage = () => {
 
 	return (
 		<S.Container>
-			<S.Background autoPlay loop muted playsInline>
-				<source
-					src="https://cdn.discordapp.com/attachments/1067488107827576916/1067743308367020092/background.mp4"
-					type="video/mp4"
-				/>
-			</S.Background>
 			<S.Image src={logo} />
 			<S.LinksContainer>
 				<S.BoldYellowButton

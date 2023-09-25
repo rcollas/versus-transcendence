@@ -1,149 +1,47 @@
-# ft_transcendence_42
+# ft_transcendence 42
 
-# [PROJECT STILL IN PROGRESS - Estimation time of end - mid-March ]   
-ft_transcendence from 42 school is the last project of the common core
+<h2>Introduction</h2>
 
-## Documentation
+This is the final project of 42 School!
 
-### NESTJS
+The project was realized in collaboration with @arolland, @lraffin, and @vbachelet. It consists in a website with a pong game, a chat, a leaderboard, a profile and a lot of other social features.
 
-- [Video Nest JS Course for beginners](https://www.youtube.com/watch?v=GHTA143_b-s&ab_channel=freeCodeCamp.org)
-- [NestJS official documentation](https://docs.nestjs.com/)
-- [Better understanding for modules](https://dev.to/webeleon/cursus-nestjs-les-modules-partie-1-4295)
-- [Better understanding for controllers](https://dev.to/webeleon/cursus-nestjs-les-controllers-4bm0)
-- [How works @inject with providers](https://www.youtube.com/watch?v=_7dwRW1cgyU&ab_channel=TechWall)
-- [How works the words "super" in a constructor](https://www.w3schools.com/jsref/jsref_class_super.asp)
-- [How works the pipes](https://docs.nestjs.com/pipes)
-- [Migration database](https://www.prisma.io/docs/concepts/components/prisma-migrate/migrate-development-production)
-- [JSON web token](https://auth0.com/learn/json-web-tokens)
-- [Undestand an payload in an API](https://blog.hubspot.com/website/what-is-payload#:~:text=What%20is%20a%20Payload%20in%20an%20API%3F,HTTP%20request%20and%20response%20message.)
-- [Understand what is a promise](https://javascript.developpez.com/actu/146280/Comprendre-les-Promises-en-JavaScript-TypeScript-article-de-yahiko/)
-- [Know more about guards](https://docs.nestjs.com/guards)
-- [Automated tests: the test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Tool to automate test : Pactum](https://pactumjs.github.io/introduction/quick-start.html#system-requirements)
-- [Documentation about testing](https://docs.nestjs.com/fundamentals/testing)
-- [How to Architect a full stack application](https://www.freecodecamp.org/news/how-to-build-a-full-stack-application-from-start-to-finish/)
+Creating this website was a truly challenging endeavor. It marked our first venture into web development, and we had to rapidly acquire a wealth of knowledge. We designed the website using Figma, coded the backend with NestJS, and the frontend with React.
 
-### HTML/CSS DOCUMENTATION
+The primary challenge we faced was mastering the fundamentals of web development:
+- Understanding what a REST API is and how to handle stateless client/server communication.
+- Grasping the key principles of responsive design.
+- Comprehending the concept of callbacks and their widespread use in JavaScript.
+- Familiarizing ourselves with decorators and hooks, which were initially quite perplexing.
 
-- [Extension: visualize your local page in your vscode](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
-- [Site to resize an image](https://www.resizepixel.com/fr/resize-image/)
-- [Font library](https://www.fontsquirrel.com/)
-- [Align-self command CSS](https://www.google.com/search?q=align+self+stretch+css&sxsrf=ALiCzsYROPioJbIHOecftLakHPbUVHz3Fw:1670837149859&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjxzK224fP7AhWqTKQEHdcoDW4Q_AUoAnoECAIQBA&biw=1422&bih=1448&dpr=0.9#fpstate=ive&vld=cid:3efa47a4,vid:6yzqhpxKh3E)
+At the outset, the task seemed almost insurmountable, but we persevered, supported one another, and, in the end, achieved our goal! But let the images tell the story:
 
-### TYPESCRIPT - REACT DOCUMENTATION
+<h2>Social pages</h2>
 
-- [Tutorial video for Typescript and React by doing a project](https://www.youtube.com/watch?v=FJDVKeh7RJI&ab_channel=freeCodeCamp.org)
-- [Typescript types explanations](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
+[Screencast from 25-09-2023 16:43:28.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/6aaaf9cc-c15c-45e6-a065-f2180e125820)
+[Screencast from 25-09-2023 16:45:28.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/cbb79765-25ff-4dd6-a9b9-8792b7a9ff93)
 
-#### modules
 
-A module is a class annotated with a @Module() decorator. The @Module() decorator provides metadata that Nest makes use of to organize the application structure. Each application has at least one module, a root module. The root module is the starting point Nest uses to build the application graph - the internal data structure Nest uses to resolve module and provider relationships and dependencies.
+<h2>The Pong!</h2>
+<h5>Let the battle begins!</h5>
 
-##### CSS useful tips
+[Screencast from 25-09-2023 16:37:49.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/e90cbfa1-2bf5-43d8-b180-c10ffba32b92)
 
-- Responsive:
+<h5>And the winner is...</h5>
 
-```c
-	//use the command width: auto and not a fixed size
-```
+[Screencast from 25-09-2023 16:40:33.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/9d2bae7b-f0fc-4dee-9f14-1c79d7206b6c)
 
-- Icon on an another Icone
-  If you position the div above another div (even if the div are on the same level) the div above will be seen in priority.
+<h2>The chat</h2>
+<h5>A basic channel</h5>
 
-- Align self: auto, width: auto (when you put auto on your CSS code)
+[Screencast from 25-09-2023 16:41:08.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/72f80b99-afea-43d6-a918-7e81367e84c3)
 
-  - Auto will take the parent component you put in your HTML Code, that means it will take the Align self, width etc of your parent component ([explanations here for align self](<(https://www.google.com/search?q=align+self+stretch+css&sxsrf=ALiCzsYROPioJbIHOecftLakHPbUVHz3Fw:1670837149859&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjxzK224fP7AhWqTKQEHdcoDW4Q_AUoAnoECAIQBA&biw=1422&bih=1448&dpr=0.9#fpstate=ive&vld=cid:3efa47a4,vid:6yzqhpxKh3E)>))
+<h5>Channel creation</h5>
 
-- Figma versus code :
+[Screencast from 25-09-2023 16:41:58.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/d28ffb5d-e665-4447-8e9d-4af0601af405)
 
-  - Sometimes CSS is not working you should directly go to the main component to see
+<h5>Direct message</h5>
+[Screencast from 25-09-2023 16:42:46.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/8803e87e-a741-4539-8f5d-bb2ca84d4a6a)
 
-- Charte :
-
-  - Have the same name as the component of figma
-  - Same architecture of CSS as FIGMA
-  - Desktop version from xxx px to 764 px.
-  - Tablet/mobile version from 764 px to 375 px
-
--
-
-#### REACT USEFULTIP
-
-- ```c
-  radce // Create by default a function with the name of your file
-  Cmd + . // Auto import a react component selected
-  span.icon // Create <span className = icon></span>"
-  ```
-- react-beautiful-dnd to install a library to do drag and drop
-
-  - ````c
-    npm i react-beautiful-dnd // To install the librairy```
-    ````
-
-- Using
-
-##### Components
-
-- Navbar
-- DarkMode
-- Buttons && Text
-
-###### navbar
-
-###### DarkMode
-
-The darkmode is the theme "dark" you applied by clicking on the moon from the navbar
-In this component we set:
-
-- The dark/light mode by clicking
-- To keep the current state by refeshing the webpage
-- To take the user preference from his browser, if the user prefers to have dark mode by default, he will have the dark mode
-
-- ###### Buttons && Text
-  For the Buttons we've decided to use [Styled-components](https://styled-components.com/) which allows us to do a lot of variant of one item and to write the CSS directly in the tsx.
-  There are 2 variants of our component : the primary button use for clicking "Play" for example and the secondary Button.
-
-Syntax is pretty easy. here I declare text which is the basis of my text in my index.tsx from my component directory buttons and I add the variant with the size of the font of this component by using 'styled'
-
-```c
-import styled from 'styled-components'
-
-export const text = styled.text`
-	font-family: 'Montserrat';
-	font-style: normal;
-	display: flex;
-	align-items: center;
-	color: var(--font-color);
-`;
-
-export const H1Title = styled(text)`
-	font-weight: 700;
-	font-size: 40px;
-	line-height: 48px;
-`
-
-export const Subtitle = styled(text)`
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-```
-
-To import the component, you do the following in another component
-
-````
-import { H1Title, Subtitle } from 'Components/Text'
-
-const LandingPage = () => {
-  return (
-	<div>
-        <H1Title>FIRE PONG</H1Title>
-        <Subtitle>Votre anus va finir en feu</Subtitle>
-     </div>
-```c
-
-- ###### TEST
-How to test on multiple devices
-- Go to your package.json and change dev by ""
--
-````
+<h5>Light / Dark mode</h5>
+[Screencast from 25-09-2023 16:44:48.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/eb241db2-ff6d-49e9-a350-1635120c8722)

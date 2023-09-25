@@ -17,7 +17,7 @@ export const dark: DefaultTheme = {
 	name: 'dark',
 
 	colors: {
-		background: '#181818',
+		background: '#202020',
 		text: '#eee',
 		main: '#dc4f19',
 		secondary: '#2e2e2e',

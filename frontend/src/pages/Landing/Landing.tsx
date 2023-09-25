@@ -11,6 +11,12 @@ const Landing = () => {
 
 	return (
 		<S.Container>
+			<S.Background autoPlay loop muted playsInline>
+				<source
+					src="https://cdn.discordapp.com/attachments/1067488107827576916/1067743308367020092/background.mp4"
+					type="video/mp4"
+				/>
+			</S.Background>
 			<S.BrandContainer>
 				<S.Logo src={logo} />
 				<S.Slogan>Two sides, one victory</S.Slogan>

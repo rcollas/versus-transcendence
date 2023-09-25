@@ -19,6 +19,7 @@ At the outset, the task seemed almost insurmountable, but we persevered, support
 <h2>Social pages</h2>
 
 [Screencast from 25-09-2023 16:43:28.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/6aaaf9cc-c15c-45e6-a065-f2180e125820)
+
 [Screencast from 25-09-2023 16:45:28.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/cbb79765-25ff-4dd6-a9b9-8792b7a9ff93)
 
 
@@ -41,7 +42,9 @@ At the outset, the task seemed almost insurmountable, but we persevered, support
 [Screencast from 25-09-2023 16:41:58.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/d28ffb5d-e665-4447-8e9d-4af0601af405)
 
 <h5>Direct message</h5>
+
 [Screencast from 25-09-2023 16:42:46.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/8803e87e-a741-4539-8f5d-bb2ca84d4a6a)
 
 <h5>Light / Dark mode</h5>
+
 [Screencast from 25-09-2023 16:44:48.webm](https://github.com/rcollas/versus-transcendence/assets/80286021/eb241db2-ff6d-49e9-a350-1635120c8722)
